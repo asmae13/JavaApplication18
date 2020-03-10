@@ -5,15 +5,17 @@
  */
 package javaapplication18;
 
-import com.hp.hpl.jena.ontology.Individual;
-
-import java.io.FileNotFoundException;
-import com.hp.hpl.jena.ontology.OntClass;
-import com.hp.hpl.jena.ontology.OntProperty;
-
-import com.hp.hpl.jena.rdf.model.RDFWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import org.apache.jena.ontology.Individual;
+import org.apache.jena.ontology.OntClass;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntProperty;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.RDFWriter;
+/**
 
 /**
  *
