@@ -10,7 +10,7 @@ import com.hp.hpl.jena.ontology.Individual;
 import java.io.FileNotFoundException;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntProperty;
-//test d'edition
+
 import com.hp.hpl.jena.rdf.model.RDFWriter;
 import java.io.File;
 import java.io.PrintWriter;
